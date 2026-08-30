@@ -20,7 +20,7 @@ void Sort(int arr[],int n){
 
 }
 int main(){
-    int arr[8] = {1,2,0,0,2,1,1,0};
+    int arr[8] = {1,0,0,2,1,2,1,2};
     Sort(arr,8);
     for(int i=0;i<8;i++){
         cout << arr[i] << " ";
